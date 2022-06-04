@@ -1,0 +1,55 @@
+.name {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 1.2em;
+}
+
+.first-name-container, .last-name-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+    background-color: #a690b3;
+    color: #000000;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.submit-button {
+    width: 100%;
+    padding: .7em .4em;
+    font-weight: 600;
+    font-size: 1.25em;
+    outline: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+form input {
+    padding: .9em .4em;
+    border-radius: 4px;
+    outline: transparent;
+    border: transparent;
+}
+
+form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.error {
+    color: rgb(255, 100, 100);
+    margin-bottom: 1em;
+}
